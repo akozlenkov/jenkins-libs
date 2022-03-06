@@ -9,5 +9,5 @@
 // }
 
 def call(String path) {
-    return new File(file).getText()
+    return new File(path).getText()
 }
