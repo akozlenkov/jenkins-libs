@@ -6,5 +6,5 @@ import groovy.text.GStringTemplateEngine
 
 def call(String path) {
     def config = new File(path).getText()
-    return new YamlSlurper().parseText(engine.createTemplate(config).make(new YamlSlurper().parseText(config)).toString()) as Map
+    return new YamlSlurper().parseText(new GStringTemplateEngine().createTemplate(config).make(new YamlSlurper().parseText(config)).toString()) as Map
 }
