@@ -1,5 +1,5 @@
-// @Grab('org.codehaus.groovy:groovy-all:3.0.9')
-// @Grab('org.codehaus.groovy:groovy-yaml:3.0.9')
+@Grab('org.codehaus.groovy:groovy-all:3.0.9')
+@Grab('org.codehaus.groovy:groovy-yaml:3.0.9')
 import groovy.yaml.YamlSlurper
 import groovy.text.GStringTemplateEngine
 
