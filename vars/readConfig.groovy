@@ -1,5 +1,4 @@
-@GrabResolver(name='central', root='https://repo1.maven.org/maven2/')
-@Grab('org.codehaus.groovy:groovy-all:3.0.9')
+// @GrabResolver(name='central', root='https://repo1.maven.org/maven2/')
 @Grab('org.codehaus.groovy:groovy-yaml:3.0.9')
 import groovy.yaml.YamlSlurper
 import groovy.text.GStringTemplateEngine
